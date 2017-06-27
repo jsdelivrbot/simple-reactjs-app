@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-//import { Provider } from "react-redux";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import SearchWeather from "./components/search_weather";
