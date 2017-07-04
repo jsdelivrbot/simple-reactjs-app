@@ -18,7 +18,7 @@ class WeatherSearch extends Component {
 
     onSubmit(values) {
         //console.log(values);
-        this.props.fetchWeather(values.city);
+        this.props.fetchWeather(values.city, 5);
     }
 
     render() {
